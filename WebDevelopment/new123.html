@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+.registration-form {
+    display: grid;
+    gap: 15px;
+}
+
+.form-group {
+    position: relative;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: -12px;
+    left: 10px;
+    background-color: #fff;
+    padding: 0 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    border-color: #3498db;
+}
+
+button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Add animations as needed */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Apply animations */
+.container {
+    animation: fadeIn 1s ease-in-out;
+}
+
+    </style>
+    <title>Registration Form</title>
+</head>
+<body>
+    <div class="container">
+        <form class="registration-form">
+            <h1>Registration Form</h1>
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <!-- Repeat the following block for other fields -->
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <!-- Add more fields here -->
+
+            <button type="submit">Register</button>
+        </form>
+    </div>
+    <script>
+        
+    </script>
+</body>
+</html>

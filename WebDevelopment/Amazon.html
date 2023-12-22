@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+
+        }
+        body{
+            width:auto;
+        }
+        header div img{
+            width: 70px;
+            padding: 10px;
+            margin-left: 5px;
+            
+        }
+        .container a{
+            background-color: yellow;
+            text-decoration: none;
+            padding: 5px;
+            border-radius: 0 5px 5px 0;
+        }
+        .container2 .span1 a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        
+        }
+
+        .container2 .span1 a:hover
+        {
+            border:2px solid white;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        /* .container2 .span1 select :hover
+        {
+            border:2px solid white;
+            font-weight: bold;
+            cursor: pointer;
+        } */
+
+        .container span{
+            display:flex;
+            flex-direction:row;
+            background-color: black;
+            color: white;
+            font-size: 18px;
+        }
+        .container .span1{
+            gap: 50px;
+        }
+        .container .span3{
+            gap: 50px;
+        }
+        .container .span1 .span2{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .container .span3 .span2{
+            display: flex;
+            flex-direction: column;
+            gap: 0;
+        }
+        
+        .container .span1 select{
+            border-radius: 5px 0 0 5px;
+        }
+        .container .span3 select{
+            /* background:transparent; */
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            text-transform: uppercase;
+            border: none;
+            outline: none;
+
+        }
+        .container2{
+            background-color: rgb(44, 42, 42);
+            padding: 20px;
+        }
+        .container2 .span1{
+
+            color: white;
+            display: flex;
+            gap: 25px;
+        }
+        .container2 .span1 .prime{
+            display: flex;
+            flex-direction: column;
+            text-align: left;
+            
+        }
+        .container2 .span1 select{
+            background-color: rgb(44, 42, 42);
+            color: white;
+            border: none;
+            outline: none;
+        }
+        .head-group{
+            width: 500px;
+            /* border: none;
+            outline: none; */
+        }
+        .imgs{
+            white-space: nowrap; 
+            overflow-x: auto;
+
+        }
+
+        .imgs img{
+            display: inline-block;
+            width: 100%;
+            height: auto;
+
+
+        }
+        .container3{
+            
+            width: 100%;
+            display: flex;
+            margin: auto;
+            gap: 5%;
+            justify-content: space-between;
+        }
+
+        .container4{
+            width: 600px;
+            height: 300px;
+            font-size: 20px;
+            background-color: lightslategray;
+            /* display: flex; */
+           
+        }
+        .container4 .graybox{
+            display: flex;
+        }
+        .container4 .graybox img{
+            width: 120px;
+            margin-left: 25px;           
+        }
+        .container4 .graybox figcaption{
+            text-align: center;
+            margin-bottom: 20px;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <span>
+                <span class="span1">
+                    <span><img src="Images/amazon_PNG11.png"></span>
+                    <span class="span2">
+                        <span>Hello</span>
+                        <span>Select your Address</span>
+                    </span>
+                    <span><select>
+                        <option>All</option>
+                        <option>any</option>
+                        <option>any</option>
+                        <option>any</option>
+                    </select></span>
+                </span>
+                <span>
+                    <input type="text" class="head-group" placeholder="Search Amazon.in">
+                    <span> <a href="#search">🔍</a></span>
+                </span>
+                <span class="span3">
+                    <span>&nbsp;<select>
+                        <option>En</option>
+                        <option>Kan</option>
+                        <option>Tm</option>
+                    </select></span>
+                    <span class="span2">
+                        <span>Hello,sign in</span>
+                        <span><select>
+                            <option>Account & List</option>
+                            <option>any</option>
+                            <option>any</option>
+                            <option>any</option>
+                        </select></span>
+                    </span>
+                    <span class="span2">
+                        <span>Returns</span>
+                        <span><b>& Order</b></span>
+                    </span>
+                    <span>🛒Cart</span>
+                </span>
+            </span>
+        </div>
+    </header>
+
+    <div class="container2">
+        <span class="span1">
+            <span><a href="#any">All</a></span>
+            <span><a href="#any">Amazon miniTV</a></span>
+            <span><a href="#any">Sell</a></span>
+            <span><a href="#any">Best Sellers</a></span>
+            <span><a href="#any">Mobiles</a></span>
+            <span><a href="#any">Today's Deals</a></span>
+            <span><a href="#any">Customer Service</a></span>
+            <span><a href="#any">New Releses</a></span>
+            <span><select>
+                <option>Prime</option>
+                <option>any</option>
+            </select></span>
+            <span><a href="#any">Electronics</a></span>
+            <span><a href="#any">Home & Kitchen</a></span>
+            <span>🐇</span>
+            <span class="prime">
+                <span style="font-size: 20px;"><b>Prime Day</b></span>
+                <span>15th-16th July</span>
+            </span>
+        </span>
+        <div class="imgs">
+            <img src="Images/ig1.png">
+            <img src="Images/ig2.png">
+            <img src="Images/ig3.png">
+            <img src="Images/ig4.png">
+            <img src="Images/ig5.png">
+            <img src="Images/ig6.png">
+            <img src="Images/ing7.png">
+
+        </div>
+        <div class="container3">
+            <div class="container4">
+                <p>Marvels Westlanders :- Star-Lord on Audition</p>
+                <div class="graybox">
+                    <div>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                    </div>
+                    <div>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                    </div>
+                </div>
+               
+            </div>
+            <div class="container4">
+                <p>Appliances for your Home | Up to 50% off</p>
+                <div class="graybox">
+                    <div>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                    </div>
+                    <div>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="container4">
+                <p>Up to 70% off | Styles for Men</p>
+                <div class="graybox">
+                    <div>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                    </div>
+                    <div>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                    </div>
+                </div>
+            </div>
+            <div class="container4">
+                <p>Up to 70% off | Clearence Store  </p>
+                <div class="graybox">
+                    <div>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                    </div>
+                    <div>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                        <span><img src="Images/Auto1.jpeg" alt=""></span>
+                        <figcaption>tools</figcaption>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>

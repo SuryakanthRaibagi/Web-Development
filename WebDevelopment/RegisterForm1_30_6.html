@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        margin: auto;
+        width: 500px;
+        background-color: brown;
+        display: flex;
+        justify-content: center;
+    }
+    .container{
+        margin-top: 50%;
+    }
+
+    .container form{
+        background-color:rgb(111, 21, 21);
+        /* width:100%; */
+        height: 100%;
+        padding: 30px;
+    }
+    .container .from-group{
+        color: white;
+        opacity: 0.8;
+        font-size: 15px;
+        margin-left:30px;
+        display: flex;
+        flex-direction:row;
+        margin-bottom: 15px;
+        justify-content: space-between;
+    }
+    .container form .form-control{
+        border: none;
+        /* margin-top: 2px; */
+        height: 20px;
+        padding-left:20px;        
+    }
+    .from-group select{
+        margin-right: 21%;
+    }
+    .from-group textarea{
+        /* margin-right: 2%; */
+        width: 180px
+    }
+    .from-group .btn{
+        width: 100%;
+        height: 34px;
+        font-weight: bold;
+        font-size: 15px;
+        border-radius: 4px;
+        border: none;
+    }
+
+</style>
+<body>
+    <div class="container">
+        <form action="">
+            <!-- <span>Student Login Form</span> -->
+            <div class="from-group">
+                <span><label>Name:</label></span>
+                <span><input type="text" class="form-control" required></span>
+            </div>
+            <div class="from-group">
+                <label>Email:</label>
+                <input type="email" class="form-control" required>
+            </div>
+            <div class="from-group">
+                <label>Password:</label>
+                <input type="password" class="form-control" required>
+            </div>
+            <div class="from-group">
+                <label>Phone Number:</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="from-group">
+                <label>Gender:</label>
+                <div>
+                <label>Male:</label>
+                <input type="radio" name="rad" value="male">
+                <label>Female:</label>
+                <input type="radio" name="rad" value="female">
+                <label>Others:</label>
+                <input type="radio" name="rad" value="others">
+                 </div>
+            </div>
+            <div class="from-group">
+                <label>Language:</label>
+                <select name="" id="">
+                    <option>Select Language</option>
+                    <option>Hindi</option>
+                    <option>English</option>
+                    <option>Kannada</option>
+                    <option>Tamil</option>
+                </select>
+            </div>
+            <div class="from-group">
+                <label>Zip Code:</label>
+                <input type="text" class="form-control" required>
+            </div>
+            <div class="from-group">
+                <label>About:</label>
+                <textarea placeholder="Write about your self.."></textarea>
+            </div>
+
+            <div class="from-group"><input type="submit" class="btn" value="Register">
+            </div>
+        </form>
+
+    </div>
+</body>
+</html>
+</html>

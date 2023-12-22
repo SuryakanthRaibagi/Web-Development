@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterForm4</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .container1{
+            display:flex;
+            justify-content: center;
+            height: 600px;
+        }
+        .flex1{
+            margin-top: 1%;
+            padding:10px;
+            background-color: white;
+        }
+        .flex2{
+            margin-top: 1%;
+            padding: 10px;
+            background-color: blueviolet;
+        }
+        .form-control{
+            width: 95%;
+            height: 25px;
+            background: white;
+            border-radius: 4px;
+            /* border: 1px solid silver; */
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid silver;
+            margin: 10px 0 18px 0;
+            padding: 0 4px;
+
+        }
+        .form-control1{
+            width: 95%;
+            height: 25px;
+            background: white;
+            border-radius: 4px;
+            /* border: 1px solid silver; */
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid silver;
+            margin: 10px 0 18px 0;
+            padding: 0 4px;
+
+        }
+        .btn{
+            background-color:white;
+            color: black;
+            padding: 0 4px;
+            font-size: 15px;
+            font-weight: bold;
+            border-radius: 10px;
+            text-transform: uppercase;
+            
+
+        }
+        .select{
+            width: 95%;
+            height: 25px;
+            background: white;
+            border-radius: 4px;
+            margin: 10px 0 18px 0;
+            padding:0 4px;
+            box-sizing: border-box;
+            border: none;
+            border-bottom: 2px solid silver;
+
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: 30px;
+            }
+
+        footer p {
+        font-size: 14px;
+        }
+        .header .navg {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            margin: 30px;
+
+        }
+        a{
+            color: #fff;
+            padding: 20px;
+        }
+        .span2{
+            color: rgb(248, 243, 243);
+            font-size: 20px;
+        }
+        .span1{
+            color:blueviolet;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <nav class="navg">
+        <lable>Quiz</lable>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="index.html">Login</a>
+        </span>
+        </nav>
+    </div>
+    <div>
+        <div class="container1">
+            <div class="flex1">
+            <form action="">
+                <span class="span1">General Information</span>
+                <div class="from-group">
+                    <select class="select">
+                        <option>Title</option>
+                        <option>Mr.</option>
+                        <option>Mrs.</option>
+                    </select>  
+                </div>
+                <div class="from-group">
+                    <input type="text" class="form-control" placeholder="First Name" required>
+                    <input type="text" class="form-control" placeholder="Last Name" required>
+                </div>
+                <div class="from-group">
+                    <select class="select">
+                        <option>Position</option>
+                        <option>Designer</option>
+                        <option>Analist</option>
+                        <option>Programmer</option>
+                        <option>Tester</option>
+                        <option>Backend programmer</option>
+                    </select>  
+                </div>
+                <div class="from-group">
+                    <input type="text" class="form-control" placeholder="Company" required>
+                </div>
+                <div class="from-group">
+                    <input type="text" class="form-control" placeholder="Business Arena" required>
+                    <select class="select">
+                        <option >Employees</option>
+                        <option>Designer</option>
+                        <option>Analist</option>
+                        <option>Programmer</option>
+                        <option>Tester</option>
+                        <option>Backend programmer</option>
+                    </select>  
+                </div>
+        </div>
+        <div class="flex2">
+            <span class="span2">Contact Details</span>
+            <div class="from-group">
+                <input type="text" class="form-control1" placeholder="Street +Nr" required>
+            </div>
+            <div class="from-group">
+                <input type="text" class="form-control1" placeholder="Additional Information" required>
+            </div>
+            <div class="from-group">
+                <input type="text" class="form-control1" placeholder="Zip Code" required>
+                <select class="select">
+                    <option >Place</option>
+                    <option>Banglour</option>
+                    <option>Hubli</option>
+                    <option>Dharwad</option>
+                    <option>Gadag</option>
+                    <option>Harihar</option>
+                </select>  
+            </div>
+            <div class="from-group">
+                <select class="select">
+                    <option >Country</option>
+                    <option>India</option>
+                    <option>Korea</option>
+                    <option>Japan</option>
+                    <option>Amrica</option>
+                    <option>Great Briten</option>
+                </select>  
+            </div>
+            <div class="from-group"> 
+                <input type="text" class="form-control1" placeholder="Code+" required>
+                <input type="number" class="form-control1" placeholder="PhoneNumber" required>
+            </div>
+            <div class="from-group">
+                <input type="email" class="form-control1" placeholder="Your Email" required>
+            </div>
+            <div class="from-group">
+                <input type="checkbox">
+                <label>I do accept the<a href="">Terms and condition</a>of your site</label>
+            </div>
+            <div class="from-group">
+                <p><input type="button" class="btn" value="Register Badge"></p>
+
+            </div>
+        </form>
+        </div></div>
+<footer>
+    <p>&copy; 2023 Quiz Game. All rights reserved.</p>
+    </footer>
+</body>
+</html>

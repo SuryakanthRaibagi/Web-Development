@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vehicle</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            background-image: linear-gradient(to top right,rgb(98, 56, 248),rgb(242, 5, 206));
+            background-repeat: no-repeat;
+            width: 100vw;
+            height: 100vh;
+
+        }
+        .maindiv{
+            background-color: white;
+            display: block;
+            width:88%;
+            height: 400px;
+            border-radius: 8px;
+            margin-left: 5%;
+            /* transform: translateX(-50%); */
+            margin-top: 10vh;
+            
+        }
+        
+        .subdiv h1{
+            background-color: black;
+            color: white;
+            text-transform: uppercase;
+            font-size: 20px;
+            text-align: center;
+            height:50px;
+
+            
+        }
+        .maindiv.subdiv form .form-control{
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <div class="maindiv">
+        <div class="subdiv">
+            <h1>Vehicle Maintenance</h1>
+            <form action="">
+                <div class="form-group">
+                    <label>Vehicle ID</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Vehicle Description </label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Vehicle Type</label>
+                    <select>
+                        <option></option>
+                        <option>2 w</option>
+                        <option>3 w</option>
+                        <option>4 w</option>
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Vehicle Licence#</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>VIN Number</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Driver</label>
+                    <select>
+                        <option>One</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>Maintenance</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Update Date</label>
+                    <input type="date" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label>Update User</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <input type="submit" value="update" class="btn">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

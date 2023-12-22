@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table_form</title>
+</head>
+<body>
+    <table border="2px">
+        <tr>
+            <th style="background-color: blueviolet;">Name</th>
+            <th style="background-color: blueviolet;">Value</th>
+        </tr>
+        <tr>
+            <td>Name</td>
+            <td><input type="text" ></td>
+        </tr>
+        <tr>
+            <td>Sex</td>
+            <td><input type="radio" name="Gender" value="Male">Male<br><input type="radio" name="Gender" value="Female">Female</td>
+        </tr>
+        <tr>
+            <td>Eye color</td>
+            <td><select><option>Green</option><option>Blue</option><option>Brown</option><option>Gray</option></select></td>
+        </tr>
+        <tr>
+            <td>Check all that apply</td>
+            <td><input type="checkbox" name="hight" value="hight">Over 6 feet tall <br><input type="checkbox" name="weight" value="weight">Over 200 pounds</td>
+        </tr>
+        <tr>
+            <td colspan="2">Describe Your athletic ability:<br>
+            <textarea name="description" rows="5" cols="38px">
+
+            </textarea></td>
+        
+        </tr>
+
+        <tr>
+            <td align="center" colspan="2"><input type="submit" name="Enter_info" value="Enter my information"></td>
+        </tr>
+    </table>
+</body>
+</html>
