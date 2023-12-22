@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login2</title>
+    <style>
+        body{
+            background-color: gold;
+            display: flex;
+            justify-content: center;
+        }
+        /* .container{
+            margin: 0;
+            width: 500px;
+            max-width: 90%;
+
+        } */
+        .container .subcontainer{
+            width: fit-content ;
+            height: fit-content;
+            padding: 20px;
+            background-color: white;
+            border-radius: 4px;
+            box-shadow: 0px 5px 10px ;
+            justify-content: center;
+            margin-top: 20%;
+
+        }
+        .container form .form-control{
+            border-color:lightgreen;
+            width: 300px;
+            height: 30px;
+            padding: 0 10px;
+            margin: 10px;
+        }    
+
+        .par{
+            font-size: 20px;
+            color: white;
+            justify-content: center;
+            margin-top: 10%;
+            margin-left: 25%;
+        }
+
+        h3{
+        background-color: rgb(61, 206, 61);
+        color: white;
+        width: 120px;
+        height: 34px;
+        }
+        .container form .btn{
+            margin-left: 62%;
+            width: 120px;
+            height: 34px;
+            border: none;
+            background: rgb(61, 206, 61);
+            font-size: 16px;
+            text-transform: uppercase;
+            color: white;
+            border-radius: 4px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="par"><p><b>CSS Simple Login Form</b></p> 
+            <p>Easy to create by anyone</p>
+        </div>
+       
+        <div class="subcontainer">
+            <h3>User Login</h3>
+        <form action="">
+            <div class="from-group">
+                <input type="text" class="form-control" placeholder="Username" required>
+            </div>
+            <div class="from-group">
+                <input type="password" class="form-control"  placeholder="Password" required>
+            </div>
+            <div><input type="submit" class="btn" value="Login">
+            </div>
+        </form>
+    </div>
+    </div>
+</body>
+</html>
